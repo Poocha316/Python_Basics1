@@ -10,4 +10,11 @@ def condition1(a,b):
     else:
         print(str(a) + " higher than " + str(b))
 
-condition1(160,30)
+def loop1():
+    list = ['aba','abb','cba','ccc']
+
+    for i in list:
+        if 'c' in i:
+            print(i)
+
+loop1()
